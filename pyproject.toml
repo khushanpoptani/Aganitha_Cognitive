@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "aganitha-cognitive"
+version = "0.1.0"
+description = "A CLI tool to fetch research papers from PubMed"
+authors = ["Khushan Poptani <poptanikhushan@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+biopython = "^1.81"
+argparse = "^1.4.0"  # Ensure argument parsing is included
+numpy = "^1.26.0"
+pandas = "^2.0.0"
+
+[tool.poetry.scripts]
+get-papers-list = "aganitha_cognitive.fetch_pubmed:main"  # Defines CLI command
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
