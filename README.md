@@ -138,4 +138,4 @@ poetry env remove python
 
 👨‍💻 **Khushan Poptani**  
 📧 **Email**: poptanikhushan@gmail.com  
-📍 **GitHub**: Khushan Poptani(https://github.com/khushanpoptani)
+📍 **GitHub**: Khushan Poptani (https://github.com/khushanpoptani)
